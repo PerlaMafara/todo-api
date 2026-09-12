@@ -40,15 +40,6 @@ Funcionalidades
 -   Eliminar tareas con confirmación.
 -   Validar que el título no esté vacío.
 
-API
-
-  Método   Endpoint          Función
-  -------- ----------------- -------------------
-  GET      /api/tasks        Listar tareas
-  POST     /api/tasks        Crear tarea
-  PUT      /api/tasks/{id}   Actualizar estado
-  DELETE   /api/tasks/{id}   Eliminar tarea
-
 Decisiones técnicas
 
 -   Laravel para la API REST y la lógica del backend.
